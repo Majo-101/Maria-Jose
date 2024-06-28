@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios</title>
+        <style>
+            .container {
+                display: flex;
+                justify-content: space-around;
+            }
+            .form-container {
+                border: 1px solid #000;
+                padding: 20px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Formulario 1 -->
+            <div class="form-container">
+                <h2>1. MI FORMULARIO</h2>
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="nombre1">Nombre:</label>
+                    <input type="text" id="nombre1" name="nombre"><br><br>
+    
+                    <label for="telefono1">Teléfono:</label>
+                    <input type="tel" id="telefono1" name="telefono"><br><br>
+    
+                    <label for="correo1">Correo Electrónico:</label>
+                    <input type="email" id="correo1" name="correo"><br><br>
+    
+                    <label for="fecha1">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha1" name="fecha_nacimiento"><br><br>
+    
+                    <label for="usuario1">Tipo de Usuario:</label>
+                    <select id="usuario1" name="tipo_usuario">
+                        <option value="administrador">Administrador</option>
+                        <option value="usuario">Usuario</option>
+                    </select><br><br>
+    
+                    <label for="mensaje1">Mensaje:</label>
+                    <textarea id="mensaje1" name="mensaje"></textarea><br><br>
+    
+                    <label for="archivo1">Examinar:</label>
+                    <input type="file" id="archivo1" name="archivo"><br>
+                    <span>No se ha seleccionado ningún archivo.</span><br><br>
+    
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </form>
+            </div>
+    
+            <!-- Formulario 2 -->
+            <div class="form-container">
+                <h2>2. FORMULARIO DE REGISTRO</h2>
+                <form action="#" method="post">
+                    <label for="telefono2">Identificación:</label>
+                    <input type="tel" id="telefono2" name="telefono"><br><br>
+    
+                    <label for="documento2">Tipo de Documento:</label>
+                    <select id="documento2" name="tipo_documento">
+                        <option value="cedula">Cédula</option>
+                        <option value="pasaporte">Pasaporte</option>
+                    </select><br><br>
+    
+                    <label for="nombre2">Nombre Completo:</label>
+                    <input type="text" id="nombre2" name="nombre"><br><br>
+    
+                    <label>Sexo:</label><br>
+                    <input type="radio" id="femenino" name="sexo" value="femenino">
+                    <label for="femenino">Femenino</label><br>
+                    <input type="radio" id="masculino" name="sexo" value="masculino">
+                    <label for="masculino">Masculino</label><br><br>
+    
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </form>
+            </div>
+        </div>
+    </body>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
